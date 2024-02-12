@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img/4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 100px;
+}
+
+header p {
+  color: aliceblue;
+}
+
+header ul li:last-child {
+  border: 1px rgb(167, 100, 235);
+  line-height: normal;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header ul:last-child :hover {
+  background-color: blueviolet;
+  transition: 1.5s;
+}
